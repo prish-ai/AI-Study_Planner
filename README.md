@@ -1,70 +1,159 @@
-# Getting Started with Create React App
+# 📚 AI Study Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An intelligent AI-powered study planner that generates personalized study schedules based on subjects, topic priorities, exam dates, deadlines, and daily availability.
 
-## Available Scripts
+Built using React and Gemini AI to help students study smarter, stay organized, and improve productivity.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 📖 Add multiple subjects and topics
+- 🎯 Set subject and topic priorities (1–10)
+- 📅 Enter exam dates and course completion deadlines
+- ⏰ Time-blocking support for busy hours
+- 🤖 AI-generated personalized timetable
+- 😂 Motivational memes and study tips
+- 🧠 Smart planning using Gemini AI
+- 📱 Clean and responsive UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- React.js
+- CSS
 
-### `npm run build`
+### APIs & Libraries
+- Gemini AI API
+- Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tools
+- Git & GitHub
+- VS Code
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Project Structure
 
-### `npm run eject`
+```bash
+study-planner/
+│
+├── public/
+├── src/
+├── screenshots/
+├── .env
+├── package.json
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1️⃣ Clone the Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/prish-ai/AI-Study_Planner.git
+```
 
-## Learn More
+### 2️⃣ Open Project Folder
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd AI-Study_Planner
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3️⃣ Install Dependencies
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4️⃣ Add Gemini API Key
 
-### Analyzing the Bundle Size
+Create a `.env` file in the root directory and add:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```env
+REACT_APP_GEMINI_API_KEY=YOUR_API_KEY
+```
 
-### Making a Progressive Web App
+### 5️⃣ Start the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+The app will run on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+http://localhost:3000
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🧠 How It Works
 
-### `npm run build` fails to minify
+1. User enters subjects and topics
+2. Assigns priorities for each topic
+3. Adds exam dates and deadlines
+4. Defines busy time slots
+5. Gemini AI analyzes the data
+6. AI generates a smart timetable
+7. Study tips and motivational content are displayed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+![Homepage](screenshots/homepage.png)
+
+### Generated Timetable
+
+![Timetable](screenshots/timetable.png)
+
+---
+
+## 🔒 Environment Variables
+
+This project uses environment variables for security.
+
+`.env` is ignored using `.gitignore` to protect API keys. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 📦 Dependencies
+
+This project uses:
+- React
+- Axios
+- @google/generative-ai
+
+Configured inside `package.json`. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🌟 Future Improvements
+
+- Dark Mode
+- Calendar Integration
+- PDF Export
+- Progress Tracking
+- Notifications & Reminders
+- Mobile App Version
+
+---
+
+## 👩‍💻 Author
+
+**Prisha**
+
+GitHub: https://github.com/prish-ai
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
